@@ -6,10 +6,6 @@ background.style.backgroundColor = colors[0];
 
 let i = 1;
 
-setInterval(() => {
-    changeColors()
-}, 3000);
-
 function changeColors(){
     background.style.backgroundColor = colors[i];
     i++;
@@ -18,3 +14,6 @@ function changeColors(){
     }
     return i;
 }
+setInterval(() => {
+    changeColors()
+}, 30000);

@@ -3,6 +3,6 @@ button {
     
 }
 .container {
-    opacity: 50%;
-    transition: 2s;
+    /* opacity: 50%; */
+    transition: 20s;
 }
