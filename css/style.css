@@ -1,0 +1,8 @@
+button {
+    margin: 50vh 0;
+    
+}
+.container {
+    opacity: 50%;
+    transition: 2s;
+}
